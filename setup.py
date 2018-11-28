@@ -12,5 +12,11 @@ setuptools.setup(
   description="Easy to use console prints with colors. clrc.info(), clrc.success() etc",
   long_description=long_description,
   long_description_content_type="text/markdown",
-  url=""
+  url="https://github.com/idchlife/clrc",
+  packages=setuptools.find_packages(),
+  classifiers=[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+  ]
 )
