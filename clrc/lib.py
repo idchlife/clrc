@@ -15,10 +15,10 @@ class _Config():
       raise InvalidPrinterException()
     self.printers.append(printer)
 
-  def each_printer_exec_method(self, method: str, *args, **kwargs):
+  def each_printer_exec_method(self, method_name: str, *args, **kwargs):
     printer: AbstractPrinter
     for printer in self.printers:
-      method = getattr(printer, method)
+      method = getattr(printer, method_name)
       method(*args, **kwargs)
 
 

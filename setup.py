@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name="clrc",
-  version="0.0.3",
+  version="0.0.5",
   author="Igor Andreev",
   author_email="idchlife@gmail.com",
   description="Easy to use console prints with colors. clrc.info(), clrc.success() etc",
