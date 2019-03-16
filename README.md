@@ -34,6 +34,15 @@ You can pass additional *args like in plain print()
 
     clrc.error("This is error", True, 2, False, 43.2)
 
+
+## Update Log
+
+    0.0.3 - 16.03.2019
+    
+    - Reformatted code, now using AbstractPrinter and printers instead of raw using of print function
+    - Now there is way to attach Loguru via LoguruPrinter
+
+
 ## Licence
 
 See licence file inside repository. But basically it's good old MIT

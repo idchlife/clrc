@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name="clrc",
-  version="0.0.2",
+  version="0.0.3",
   author="Igor Andreev",
   author_email="idchlife@gmail.com",
   description="Easy to use console prints with colors. clrc.info(), clrc.success() etc",
@@ -15,7 +15,7 @@ setuptools.setup(
   url="https://github.com/idchlife/clrc",
   packages=setuptools.find_packages(),
   install_requires=[
-    "colorama=0.4.1"
+    "colorama==0.4.1"
   ],
   classifiers=[
     "Programming Language :: Python :: 3",
