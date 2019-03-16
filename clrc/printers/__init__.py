@@ -1,2 +1,3 @@
 from .abstract_printer import AbstractPrinter
 from .colorama_stdout_printer import ColoramaStdout
+from .loguru_printer import LoguruPrinter
