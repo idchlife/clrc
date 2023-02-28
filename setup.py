@@ -15,7 +15,7 @@ setuptools.setup(
   url="https://github.com/idchlife/clrc",
   packages=setuptools.find_packages(),
   install_requires=[
-    "colorama==0.4.1"
+    "colorama==0.4.5"
   ],
   classifiers=[
     "Programming Language :: Python :: 3",
